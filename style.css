@@ -27,8 +27,8 @@
     width: 100%;
     font-size: 42px;   
 } 
-.titulo-principal{
-    );
+.titulo-principal span{
+    color: var(--aba-ativa);
 }
 
 
