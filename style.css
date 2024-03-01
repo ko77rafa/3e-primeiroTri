@@ -6,13 +6,18 @@
     --aba-inativa:#8B0000;
     --aba-ativa:#7F28F0;
 }
-    body{
-        background-color:var(--cor-de-fundo);
-        color:var(--cor-do-texto);
-        font-family: "Catamaran", sans-serif;
-        .conteudo-principal{}
+ body{
+    background-color:var(--cor-de-fundo);
+    color:var(--cor-do-texto);
+    font-family: "Catamaran", sans-serif;
+     }
+    
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
     }
-
-
 
 
