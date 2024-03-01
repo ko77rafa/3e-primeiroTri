@@ -11,6 +11,8 @@
 }
     body{
         background-color:var(--cor-de-fundo);
+        color:var(--cor-do-texto);
+        font-family: "Catamaran", sans-serif;
     }
 
 
