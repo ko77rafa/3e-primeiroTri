@@ -32,7 +32,7 @@
 }
 .botao{
     font-family: "Catamaran", sans-serif;
-    border-color: var(--aba-inativa);
+    background-color: var(--aba-inativa);
 }
 
 
