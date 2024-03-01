@@ -30,5 +30,9 @@
 .titulo-principal span{
     color: var(--aba-ativa);
 }
+.botao{
+    font-family: "Catamaran", sans-serif;
+    border-color: var(--aba-inativa);
+}
 
 
