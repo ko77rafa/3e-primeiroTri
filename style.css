@@ -33,6 +33,7 @@
 .botao{
     font-family: "Catamaran", sans-serif;
     background-color: var(--aba-inativa);
+    color: var(--cor-do-texto);
 }
 
 
