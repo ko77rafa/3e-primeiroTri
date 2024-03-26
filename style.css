@@ -49,12 +49,33 @@
     border-radius: 40px 40px 0 0;
 }
 .botoes{
-display: block;
+    display: block;
 }
 .ativo{
     background-color: var(--aba-ativa);
     border-bottom: var(--aba-ativa);
 }
+.abas-textos{
+    background-color: var(--cor-de-fundo);
+    padding: 40px;
+    border-radius: 00 40px 40px;
+}
+.aba-conteudo.ativo{
+    display: block;
+}
+.aba-conteudo{
+    display: none;
+}
+.aba-conteudo-titulo-principal{
+    font-size: 28px;
+    text-align: center;
+}
+.aba-conteudo-titulo-secundario{
+    text-align: center;
+    color: var(--rosa);
+    text-transform: uppercase;
+}   
+
 @media screen and (min-width: 768px) {
     .botoes{
         display: flex;
