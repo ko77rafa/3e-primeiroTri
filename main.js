@@ -11,8 +11,8 @@ const textos = document.querySelectorAll(".aba-conteudo");
  textos[i].classList.add("ativo");
    }     
  }
- const contadores = document.querySelectorAll;
- const tempoObjetivo = new Date (2025-01-01);
+ const contadores = document.querySelectorAll(".contador");
+ const tempoObjetivo = new Date (2025-01-28T00:00:00);
  let tempoAtual = new Date();
 
- contadores[0].textContent = tempoObjetivo
+ contadores[0].textContent = tempoObjetivo - tempoAtual;
