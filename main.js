@@ -13,7 +13,7 @@ const textos = document.querySelectorAll(".aba-conteudo");
    }     
  }
  const contadores = document.querySelectorAll(".contador");
- const tempoObjetivo1 = new Date (2025-01-28T23:59:59);
+ const tempoObjetivo1 = new Date ("2025-01-28T23:59:59");
 
   const tempos = [
     tempoObjetivo1
