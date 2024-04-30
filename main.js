@@ -13,17 +13,17 @@ const textos = document.querySelectorAll(".aba-conteudo");
  }
  const contadores = document.querySelectorAll(".contador");
  const tempoObjetivo = new Date (2025-01-28T23:59:59);
- let tempoAtual = new Date();
+  const tempos = [tempoObjetivo]
 
  for (let i=0; i< contadores.length; i++){
     contadores[i].textContent = calculaTempo(tempos[i]);
   }
 
- contadores[0].textContent = calculaTempo(tempoObjetivo1);
+ contadores[0].textContent = calculaTempo(tempoObjetivo);
 
  function calculaTempo(tempoObjetivo1){
   let tempoAtual = new Date();
-  let tempoFinal = tempoObjetivo1 - tempoAtual;
+  let tempoFinal = tempoObjetivo - tempoAtual;
   let segundos = Math.floor(tempoFinal / 1000);
   let minutos = Math.floor(segundos / 60);
   let horas = Math.floor(minutos / 60);
