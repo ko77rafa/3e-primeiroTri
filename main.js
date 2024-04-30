@@ -20,7 +20,7 @@ const textos = document.querySelectorAll(".aba-conteudo");
   ]
 
  for (let i=0; i< contadores.length; i++){
-    contadores[i].textContent = calculaTempo(tempos[I]);
+    contadores[i].textContent = calculaTempo(tempos[i]);
   }
 
  contadores[0].textContent = calculaTempo(tempoObjetivo1);
